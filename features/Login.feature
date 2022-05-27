@@ -8,3 +8,5 @@ Feature: Login
     And User enters Email as "adithautomation@gmail.com" and Password as "Tester@12345"
     And Click on Login button
     Then User navigates to MyAccount Page
+    
+   
