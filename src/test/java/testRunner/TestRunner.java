@@ -7,8 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-        		//features= {".//features/Login.feature"},
-        		features= {".//features/LoginDDT.feature"},
+        		features= {".//features/Login.feature",".//features/AccountRegistration.feature"},
+        		//features= {".//features/LoginDDT.feature"},
+        		//features= {".//features/AccountRegistration.feature"},
                 glue={"stepDefinitions"},
                 dryRun=false
                
