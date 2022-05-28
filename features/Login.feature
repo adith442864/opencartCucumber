@@ -1,5 +1,5 @@
 Feature: Login
-
+@sanity
   Scenario: Successful Login with Valid Credentials
     Given User Launch browser
     And opens URL "https://demo.opencart.com/"

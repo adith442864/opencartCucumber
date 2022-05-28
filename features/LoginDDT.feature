@@ -5,7 +5,7 @@ Feature: LoginDDT
 	  And opens URL "https://demo.opencart.com/"
 	  When User navigate to MyAccount menu
 	  And click on Login
-
+	@regression
   Scenario Outline: Login Data Driven
     #Given User Launch browser
     #And opens URL "https://demo.opencart.com/"
@@ -19,7 +19,8 @@ Feature: LoginDDT
   | email					  | password     |
   | adithautomation@gmail.com | Tester@12345 |
   | adith123@gmail.com	 	  | Tester@12345 |
-  
+ 
+ @regression
    Scenario Outline: Login Data Driven2
     #Given User Launch browser
     #And opens URL "https://demo.opencart.com/"

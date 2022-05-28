@@ -1,5 +1,5 @@
 Feature: Account Registration
-
+@sanity
 Scenario: Successful Account Registration with Valid user details
 
 	Given User Launch browser
